@@ -104,7 +104,7 @@ app.get('/numbers/:numberid', async (req, res) => {
   res.json(response);
 });
 
-// Start serve
+// Start server
 
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
