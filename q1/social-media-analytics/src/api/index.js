@@ -16,3 +16,4 @@ export const fetchPostComments = async (postId) => {
   const response = await axios.get(`${BASE_URL}/posts/${postId}/comments`);
   return response.data.comments;
 };
+

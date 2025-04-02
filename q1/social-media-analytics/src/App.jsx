@@ -1,3 +1,8 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import TopUsers from "./components/TopUsers";
+import TrendingPosts from "./components/TrendingPosts";
+import Feed from "./components/Feed";
+
 function App() {
   return (
     <Router>
@@ -24,3 +29,5 @@ function App() {
     </Router>
   );
 }
+
+export default App;
