@@ -1,0 +1,39 @@
+/* Base Styles */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  a:hover {
+    color: #1e40af;
+  }
+  
+  /* Layout */
+  .app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
